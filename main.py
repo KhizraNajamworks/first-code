@@ -3,9 +3,9 @@ from tkinter import messagebox
 
 # --- LAYER 1: THE CANVAS (Window Setup) ---
 root = tk.Tk()
-root.title("📱 KHIZRA'S CALC")       # Custom brand title updated!
+root.title("📱 KHIZRA'S CALC")       
 root.geometry("380x570")
-root.configure(bg="#B30046")       # Vibrant Deep Cherry Base Color
+root.configure(bg="#B30046")       
 root.resizable(False, False)
 
 current_expression = ""
@@ -43,8 +43,8 @@ display_screen = tk.Entry(
     bd=0, 
     width=14, 
     justify="right",
-    bg="#FFF0F5",      # Lavender Blush Ultra-Light Pink Screen Surface
-    fg="#B30046",      # Rich text color to match the outer body
+    bg="#FFF0F5",      
+    fg="#B30046",      
 )
 display_screen.pack(pady=30, ipady=18, padx=24, fill="both")
 
